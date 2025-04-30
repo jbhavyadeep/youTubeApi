@@ -20,14 +20,13 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e] text-white font-sans">
-      <header className="text-center py-10">
+      <header className="text-center pt-10">
         <Link to={"/"}>
-          <h1 className="text-4xl p-2 md:text-5xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+          <h1 className="text-4xl p-2 md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
             YouTube Videos to Learn Programming
           </h1>
         </Link>
 
-        <p className="text-sm text-gray-300">Click a thumbnail to play the video</p>
       </header>
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Outlet />

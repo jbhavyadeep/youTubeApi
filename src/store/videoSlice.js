@@ -14,7 +14,8 @@ export const videoSlice = createSlice({
                 id: action.payload.id,
                 title: action.payload.title,
                 thumbnail: action.payload.thumbnail,
-                tags: action.payload.tags
+                tags: action.payload.tags,
+                description: action.payload.description
             };
             const exists = state.videos.some(video => video.id === action.payload.id);
             if (!exists) {
