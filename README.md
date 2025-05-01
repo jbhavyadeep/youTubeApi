@@ -1,12 +1,36 @@
-# React + Vite
+# 🎥 YouTubeApi App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based video app that fetches and plays videos from [freeapi.app](https://freeapi.app), featuring tech educator Hitesh Choudhary. Users can search, browse, and watch videos with a smooth and minimal UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search Videos** – Quickly find videos by title or keywords.
+- ▶️ **Video Playback** – Watch videos directly using the `react-youtube` package.
+- 🧭 **Dynamic Routing** – Each video has a dedicated page using `react-router-dom`.
+- 🧠 **Redux Toolkit** – Efficient and scalable state management.
+- 📦 **API Integration** – Pulls videos from [freeapi.app](https://freeapi.app).
+- 📱 **Responsive Design** – Looks great on all screen sizes.
 
-## Expanding the ESLint configuration
+## 🖼️ Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![alt text](image.png)
+![alt text](image-1.png)
+
+## 🧰 Tech Stack
+
+| Tool           | Usage                        |
+|----------------|------------------------------|
+| React          | Frontend Framework           |
+| Redux Toolkit  | State Management             |
+| React Router   | Client-side Routing          |
+| React YouTube  | Embedded YouTube Player      |
+| Tailwind CSS (optional) | UI Styling          |
+| freeapi.app    | Video API Source             |
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/jbhavyadeep/youTubeApi.git
+cd youTubeApi
+npm install
+npm run dev

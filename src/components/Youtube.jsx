@@ -54,7 +54,7 @@ function Youtube() {
                     videos.slice(0, 4).map((video) => (
                         <li key={video.id}>
                             <Link to={`/watch/${video.id}`}>
-                                <div className='max-w-[250px] bg-gray-200 bg-opacity-10 text-black p-4 rounded-2xl shadow-xl transition transform hover:scale-105 hover:shadow-2xl duration-300'>
+                                <div className='max-w-[250px] bg-gray-200 opacity-80 text-black p-4 rounded-2xl shadow-xl transition transform hover:scale-105 hover:shadow-2xl duration-300'>
 
                                     <img
                                         className="rounded-xl cursor-pointer mx-auto transition-all duration-300 group-hover:brightness-110" src={video.thumbnail}
